@@ -1,14 +1,14 @@
 ---
 title: 【转载】一篇文章butterfly主题heo化！
-category: 
+category:
   - 杂谈教程
 tags:
   - butterfly
   - 魔改
   - hexo
+cover: 'https://pic.imgdb.cn/item/649f003d1ddac507cc3a01ad.png'
 abbrlink: 5781
 date: 2023-02-11 20:15:46
-cover: /img/posts/heobtf.png
 ---
 :::danger
 最近想要洪化，一直在网上找教程，非常难找到，洪哥收录的教程也不足以洪化。一篇篇教程很零散，我的收藏夹都一大堆了。
@@ -2686,7 +2686,7 @@ img.footer_mini_logo:hover {
         input(type='checkbox', checked)
         p
           | 致力于成为一个前端小姥🐷
-          img.inline-img(src='https://cdn1.tianli0.top/gh/volantis-x/cdn-emoji/aru-l/0000.gif/' data-fancybox='gallery', style='display: inline;margin: 0 3px;height: 1.1em;vertical-align: text-bottom;')
+          img.inline-img(src='https://cdn.jsdelivr.net/gh/volantis-x/cdn-emoji/aru-l/0000.gif/' data-fancybox='gallery', style='display: inline;margin: 0 3px;height: 1.1em;vertical-align: text-bottom;')
       .checkbox.blue.checked
         input(type='checkbox', checked)
         p

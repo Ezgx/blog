@@ -1,14 +1,10 @@
 ---
 title: OBS Studio录制卡顿怎么解决？
-tags: []
-published: true
-hideInList: false
-feature: /post-images/KFZVRjMH0.jpg
-isTop: false
+cover: 'https://pic.imgdb.cn/item/649e98731ddac507cc60075e.png'
+category:
+  - 杂谈教程
 abbrlink: 65417
 date: 2022-08-26 15:11:38
-category: 
-  - 杂谈教程
 ---
 OBS Studio录制卡顿的解决方法
 <!-- more -->

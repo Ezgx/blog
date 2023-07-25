@@ -2,10 +2,7 @@
 title: Linux安装中文输入法
 tags:
   - linux
-published: true
-hideInList: false
-feature: /post-images/linux-an-zhuang-zhong-wen-shu-ru-fa.jpg
-isTop: true
+cover: 'https://pic.imgdb.cn/item/649ea3351ddac507cc736dc3.png'
 abbrlink: 10141
 date: 2022-08-24 16:35:20
 ---

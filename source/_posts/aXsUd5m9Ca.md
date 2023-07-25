@@ -4,9 +4,7 @@ tags:
   - linux
 published: true
 category: 杂谈教程
-hideInList: false
-feature: /post-images/aXsUd5m9Ca.jpg
-isTop: false
+cover: 'https://pic.imgdb.cn/item/649ea3351ddac507cc736dc3.png'
 abbrlink: 51673
 date: 2022-08-27 00:08:28
 ---

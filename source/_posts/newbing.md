@@ -1,9 +1,9 @@
 ---
 title: 微软推出“新必应”，支持在线ChatGPT！
+cover: 'https://pic.imgdb.cn/item/649e8f6f1ddac507cc51306e.png'
 abbrlink: 11066
 date: 2023-02-25 18:31:37
 tags:
-cover: /img/posts/newbing.png
 ---
 # 什么是新必应
 

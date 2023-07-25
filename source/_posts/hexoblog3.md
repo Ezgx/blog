@@ -2,10 +2,12 @@
 title: hexo博客搭建-3-主题&页面配置
 tags:
   - hexo
-abbrlink: 45799
-date: 2022-12-14 15:50:90
-category: 
+cover: >-
+  https://pic.imgdb.cn/item/649efe141ddac507cc348243.png
+category:
   - 博客教程
+abbrlink: 62395
+date: 2022-12-14 15:51:30
 ---
 ::: danger
 ## 这期开始页面配置

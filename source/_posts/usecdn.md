@@ -4,9 +4,11 @@ tags:
   - hexo
   - 优化
   - 碎碎念
+top_group_index: 1
+cover: >-
+  https://pic.imgdb.cn/item/649efe141ddac507cc348243.png
 abbrlink: 32096
 date: 2023-01-20 14:17:35
-top_group_index: 1
 ---
 :::warning
 发现博客速度有些慢
@@ -67,7 +69,7 @@ cdn有免费的，最近找到一个：[youziyun.com](https://youziyun.com)
 
 如果你用的github，那么可以套个netlify（后面会出教程哒！~，（可能会咕咕咕？
 
-如果你有大尺寸css或者加载慢的css，比如我的字体css，10秒才能加载出来，如果你也有这种情况，可以去看看我的[css预加载方案](https://ezgx.site/posts/47635/)
+如果你有大尺寸css或者加载慢的css，比如我的字体css，10秒才能加载出来，如果你也有这种情况，可以去看看我的[css预加载方案](https://uu.sssu.us/posts/47635/)
 
 如果你不打算绑定域名，并且能接受每次推送要手动更新，还有实名认证，那你可以选择gitee。
 

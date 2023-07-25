@@ -2,9 +2,9 @@
 title: windows-terminal美化
 tags:
   - windows
+cover: 'https://pic.imgdb.cn/item/649e98731ddac507cc60075e.png'
 abbrlink: 50741
 date: 2022-12-16 15:33:30
-swiper_index: 7
 ---
 众所周知，++Windows++的==cmd==和==powershell==都 灰 常 的 丑
 <!-- more -->

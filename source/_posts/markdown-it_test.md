@@ -1,6 +1,7 @@
 ---
 title: markdown-it语法
-abbrlink: 55920
+cover: 'https://pic.imgdb.cn/item/649eb9491ddac507cc9ec2ff.png'
+abbrlink: 54656
 date: 2022-12-12 17:35:36
 ---
 <!-- more -->

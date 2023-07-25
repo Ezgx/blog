@@ -4,11 +4,12 @@ tags:
   - hexo
   - 教程
   - 前端
+top_group_index: 1
+category:
+  - 博客优化
+cover: 'https://pic.imgdb.cn/item/649ea1491ddac507cc7016a8.png'
 abbrlink: 47635
 date: 2023-01-09 01:54:51
-top_group_index: 1
-category: 
-  - 博客优化
 ---
 Ecx-project进行的过程中<br>
 发现了一个问题<br>

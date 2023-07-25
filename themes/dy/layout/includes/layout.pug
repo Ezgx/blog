@@ -1,0 +1,100 @@
+- var htmlClassHideAside = theme.aside.enable && theme.aside.hide ? 'hide-aside' : ''
+
+- var hideAside = !theme.aside.enable || page.aside === false ? 'hide-aside' : ''
+- var pageType = is_post() ? 'post' : 'page'
+
+doctype html
+html(lang=config.language data-theme=theme.display_mode class=htmlClassHideAside)
+  head
+    include ./head.pug
+    script(src='/js/fish.load.js')
+    link(rel="stylesheet", href="/css/color.css")
+    link(rel="stylesheet", href="https://cdn.jsdelivr.net/npm/element-ui@2.15.6/packages/theme-chalk/lib/index.css")
+    link(rel='preload' as='font' type='font/ttf' href='/font/alifangyuan.ttf' crossorigin='anonymous')
+    link(rel="stylesheet", href="https://unpkg.com/swiper@8/swiper-bundle.min.css")
+    script(src=" https://code.jquery.com/jquery-3.7.0.min.js")
+    script(async='' src='/js/vue.min.js')
+    script(async='' src='/js/element-ui.js')
+    script(async='' data-pjax='' src="/js/scroll.js")
+    script(async='' data-pjax='' src="/js/vue-bar.js") 
+  body
+    script(src="https://unpkg.com/swiper@8/swiper-bundle.min.js")
+    if theme.preloader.enable
+      !=partial('includes/loading/index', {}, {cache: true})
+
+    if theme.background
+      #web_bg
+      
+    !=partial('includes/sidebar', {}, {cache: true})
+
+    if page.type !== '404'
+      #body-wrap(class=pageType)
+        include ./header/index.pug
+        if is_home()
+          include ./hometop.pug
+
+        if is_home()
+          main#content-inner.layout.homemain(class=hideAside)
+            if body
+              div!= body
+            else
+              block content
+              if theme.aside.enable && page.aside !== false
+                include widget/index.pug
+                if (is_page())
+                  block content
+        else
+          main#content-inner.layout(class=hideAside)
+            if body
+              div!= body
+            else
+              block content
+              if theme.aside.enable && page.aside !== false
+                include widget/index.pug
+                if (is_page())
+                  block content
+
+        - var footerBg = theme.footer_bg
+        if (footerBg)
+          if (footerBg === true)
+            - var footer_bg = bg_img
+          else
+            - var footer_bg = theme.footer_bg.indexOf('/') !== -1 ? `background-image: url('${url_for(footerBg)}')` : `background: ${footerBg}`
+        else
+          - var footer_bg = ''
+
+        footer#footer(style=footer_bg)
+          !=partial('includes/footer', {}, {cache: true})
+
+    else
+      include ./404.pug
+
+    include ./rightside.pug
+    !=partial('includes/third-party/search/index', {}, {cache: true})
+    include ./additional-js.pug
+    .totopbutton(onclick="btf.scrollToDest(0,500)")
+      i.fas.fa-arrow-up
+      span#percent 0
+      include ./waves.pug
+    #console_open_close_btn(onclick='showconsolebtn()')
+      i.fas.fa-gear.fa-spin
+    #console-pannel
+      | 控制台
+      .console-item
+        .console-button(onclick='hideaside()')
+          i.fas.fa-arrows-alt-h
+          .text 侧栏隐显
+      .console-item
+        .console-button(onclick='toggleTheme()')
+          i.fas.fa-adjust
+          .text 暗色模式
+      .console-item
+        .console-button(onclick='hidehometop()')
+          i.fas.fa-grip-vertical
+          .text 顶部隐显
+      .console-item
+        .console-button(onclick='toRandomPost()')
+          i.fas.fa-shuffle
+          .text 随机文章
+    script(src="/js/custom.js")
+    script(src="/js/random.js")

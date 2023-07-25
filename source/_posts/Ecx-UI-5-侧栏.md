@@ -1,14 +1,15 @@
 ---
 title: Ecx-UI-5-侧栏
-date: 2023-01-15 10:52:49
 tags:
   - hexo
   - 教程
   - Ecx-UI
   - 魔改
   - butterfly
-abbrlink: 83242
 category: ui魔改
+cover: 'https://pic.imgdb.cn/item/649f003d1ddac507cc3a01ad.png'
+abbrlink: 53971
+date: 2023-01-15 10:52:49
 ---
 Ecx-UI第五期
 

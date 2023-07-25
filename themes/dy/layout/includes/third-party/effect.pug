@@ -1,0 +1,17 @@
+if theme.fireworks && theme.fireworks.enable
+  canvas.fireworks(mobile=`${theme.fireworks.mobile}`)
+  script(src=url_for(theme.asset.fireworks))
+
+//- 鼠標特效
+if theme.click_heart && theme.click_heart.enable
+  script#click-heart(src=url_for(theme.asset.click_heart) async mobile=`${theme.click_heart.mobile}`)
+
+if theme.ClickShowText && theme.ClickShowText.enable
+  script#click-show-text(
+    src= url_for(theme.asset.ClickShowText)
+    data-mobile= `${theme.ClickShowText.mobile}`
+    data-text= theme.ClickShowText.text.join(",")
+    data-fontsize= theme.ClickShowText.fontSize
+    data-random= `${theme.ClickShowText.random}`
+    async
+  )

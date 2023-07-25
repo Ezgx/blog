@@ -2,7 +2,9 @@
 title: hexo插件推荐
 tags:
   - hexo
-abbrlink: 10453
+cover: >-
+  https://pic.imgdb.cn/item/649efe141ddac507cc348243.png
+abbrlink: 64526
 date: 2022-12-23 14:09:11
 ---
 :::success

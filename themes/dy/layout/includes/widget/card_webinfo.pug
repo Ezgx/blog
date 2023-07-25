@@ -1,0 +1,32 @@
+.card-widget.card-webinfo
+  .item-headline
+    i.fas.fa-chart-line.fa-bounce
+    span= _p('aside.card_webinfo.headline')
+  .webinfo
+    .webinfo-item
+      .item-name
+        i.fas.fa-folder-open.fa-beat
+        .text 文章总数
+      .item-count= site.posts.length
+    .webinfo-item
+      .item-name
+        i.fas.fa-eye.fa-shake
+        .text 总访问量
+      .item-count#busuanzi_value_site_pv
+    .webinfo-item
+      .item-name
+        i.fas.fa-user.fa-shake
+        .text 访问人次
+      .item-count#busuanzi_value_site_uv
+    .webinfo-item
+      .item-name
+        i.fas.fa-pen-to-square.fa-beat
+        .text 全站字数
+      .item-count=totalcount(site)
+    .webinfo-item
+      .item-name
+        i.fas.fa-upload.fa-shake
+        .text 最后更新
+      .item-count#last-push-date(data-lastPushDate=date_xml(Date.now()))
+        i.fa-solid.fa-spinner.fa-spin
+

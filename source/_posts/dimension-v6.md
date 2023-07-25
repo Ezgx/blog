@@ -1,7 +1,7 @@
 ---
 title: dimension-6.0更新
 categroy: dimension
-cover: 'https://pic.imgdb.cn/item/64061c93f144a01007f083cb.jpg'
+cover: 'https://pic.imgdb.cn/item/649ea95b1ddac507cc80c4f5.png'
 abbrlink: 43564
 date: 2023-03-26 21:16:57
 tags:

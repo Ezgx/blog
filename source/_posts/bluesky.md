@@ -4,10 +4,10 @@ tags:
   - hexo
   - butterfly
   - 魔改
-abbrlink: 35907
 category: 杂谈教程
+cover: 'https://pic.imgdb.cn/item/649f003d1ddac507cc3a01ad.png'
+abbrlink: 18276
 date: 2023-02-23 21:59:13
-cover: /img/posts/bluesky.png
 ---
 
 为butterfly主题添加一个蓝天白云特效
@@ -48,7 +48,7 @@ cover: /img/posts/bluesky.png
 }
 
 .clouds_one {
-  background: url("https://ezgx.site/css/img/cloud_one.png");
+  background: url("https://uu.sssu.us/css/img/cloud_one.png");
   position: absolute;
   left: 0;
   top: 0;
@@ -61,7 +61,7 @@ cover: /img/posts/bluesky.png
 }
 
 .clouds_two {
-  background: url("https://ezgx.site/css/img/cloud_two.png");
+  background: url("https://uu.sssu.us/css/img/cloud_two.png");
   position: absolute;
   left: 0;
   top: 0;
@@ -74,7 +74,7 @@ cover: /img/posts/bluesky.png
 }
 
 .clouds_three {
-  background: url("https://ezgx.site/css/img/cloud_three.png");
+  background: url("https://uu.sssu.us/css/img/cloud_three.png");
   position: absolute;
   left: 0;
   top: 0;

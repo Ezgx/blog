@@ -4,11 +4,13 @@ tags:
   - hexo
   - 教程
   - 优化
+swiper_index: 5
+cover: >-
+  https://pic.imgdb.cn/item/649efe141ddac507cc348243.png
+category:
+  - 博客优化
 abbrlink: 33392
 date: 2022-12-29 13:17:42
-swiper_index: 5
-category: 
-  - 博客优化
 ---
 <!-- more -->
 

@@ -1,18 +1,20 @@
 ---
-title: dimension外挂标签
-date: 2023-03-07 23:59:03
+title: dynasty/dimension主题外挂标签
 tags:
- - hexo
- - butterfly
-abbrlink: tagplugins
-category: 
+  - hexo
+  - butterfly
+  - dynasty
   - dimension
-cover: https://pic.imgdb.cn/item/640765b8f144a010071d26ca.jpg
+category:
+  - dimension
+cover: 'https://pic.imgdb.cn/item/649efcf51ddac507cc325127.png'
+abbrlink: 58490
+date: 2023-03-07 23:59:03
 ---
 
 {% span center logo large, hexo-theme-dimension %} {% span center small, 一个基于`butterfly`的二次元hexo主题。 %}
 
-# dimension主题有众多外挂标签供您使用
+# dynasty/dimension主题外挂标签
 
 ## 按钮
 
@@ -41,6 +43,66 @@ cover: https://pic.imgdb.cn/item/640765b8f144a010071d26ca.jpg
 {% cell 查看文档, /, fas fa-book-open %}
 {% endbtns %}
 ```
+
+## github个人卡片
+
+不同主题：
+default：
+{% ghp ezgx, default %}
+dack：
+{% ghp ezgx, dark %}
+highcontrast：
+{% ghp ezgx, highcontrast %}
+transparent：
+{% ghp ezgx, transparent %}
+radical：
+{% ghp ezgx, radical %}
+merko：
+{% ghp ezgx, merko %}
+gruvbox：
+{% ghp ezgx, gruvbox %}
+gruvbox-duo：
+{% ghp ezgx, gruvbox-duo %}
+tokyonight：
+{% ghp ezgx, tokyonight %}
+tokyonight-duo：
+{% ghp ezgx, tokyonight-duo %}
+onedark：
+{% ghp ezgx, onedark %}
+onedark-duo：
+{% ghp ezgx, onedark-duo %}
+prussian：
+{% ghp ezgx, prussian %}
+vue：
+{% ghp ezgx, vue %}
+vue-dark：
+{% ghp ezgx, vue-dark %}
+
+```
+{% ghp ezgx, default %}
+{% ghp ezgx, dark %}
+{% ghp github用户名, 主题（如：vue-dark，default等） %}
+```
+
+## github奖杯
+
+{% ghpt ezgx, 1, 7, flat %}
+{% ghpt ezgx, 1, 7, onedark %}
+{% ghpt ezgx, 1, 7, gruvbox %}
+{% ghpt ezgx, 1, 7, dracula %}
+{% ghpt ezgx, 1, 7, monokai %}
+{% ghpt ezgx, 1, 7, chalk %}
+{% ghpt ezgx, 1, 7, nord %}
+{% ghpt ezgx, 1, 7, alduin %}
+{% ghpt ezgx, 1, 7, darkhub %}
+可选主题：`flat` `onedark` `gruvbox` `dracula` `monokai` `chalk` `nord` `alduin` `darkhub` `buddhism` `oldie` `onestar` `algolia`
+
+```
+{% ghpt ezgx, 1, 7, gruvbox %}
+{% ghpt github用户名, 行数（不写默认2行）, 个数（不写默认全显示）, 主题（不写默认flat）如gruvbox等 %}
+```
+
+## 提示块标签
 
 {% note simple %}
 默認 提示塊標籤
@@ -244,4 +306,76 @@ hahaha <span><img src='https://gcore.jsdelivr.net/gh/volantis-x/cdn-emoji/tieba/
 {% endfolding %}
 ```
 
-## butterfly原生的外挂标签也可以使用。
+## 隐藏标签（butterfly）
+
+哪个英文字母最酷？ {% hideInline 因为西装裤(C装酷),查看答案,#FF7242,#fff %}
+
+门里站着一个人? {% hideInline 闪 %}
+
+```
+哪个英文字母最酷？ {% hideInline 因为西装裤(C装酷),查看答案,#FF7242,#fff %}
+
+门里站着一个人? {% hideInline 闪 %}
+```
+
+## tabs（butterfly）
+
+{% tabs test2, 3 %}
+<!-- tab -->
+**This is Tab 1.**
+<!-- endtab -->
+
+<!-- tab -->
+**This is Tab 2.**
+<!-- endtab -->
+
+<!-- tab -->
+**This is Tab 3.**
+<!-- endtab -->
+{% endtabs %}
+
+```
+{% tabs test2, 3 %}
+<!-- tab -->
+**This is Tab 1.**
+<!-- endtab -->
+
+<!-- tab -->
+**This is Tab 2.**
+<!-- endtab -->
+
+<!-- tab -->
+**This is Tab 3.**
+<!-- endtab -->
+{% endtabs %}
+```
+
+{% tabs test4 %}
+<!-- tab 第一个Tab -->
+**tab名字为第一个Tab**
+<!-- endtab -->
+
+<!-- tab @fab fa-apple-pay -->
+**只有图标 没有Tab名字**
+<!-- endtab -->
+
+<!-- tab 炸弹@fas fa-bomb -->
+**名字+icon**
+<!-- endtab -->
+{% endtabs %}
+
+```
+{% tabs test4 %}
+<!-- tab 第一个Tab -->
+**tab名字为第一个Tab**
+<!-- endtab -->
+
+<!-- tab @fab fa-apple-pay -->
+**只有图标 没有Tab名字**
+<!-- endtab -->
+
+<!-- tab 炸弹@fas fa-bomb -->
+**名字+icon**
+<!-- endtab -->
+{% endtabs %}
+```

@@ -2,10 +2,11 @@
 title: markdown-it食用教程
 tags:
   - 教程
-abbrlink: 65320
-date: 2022-12-12 17:35:36
-category: 
+category:
   - 杂谈教程
+cover: 'https://pic.imgdb.cn/item/649eb9491ddac507cc9ec2ff.png'
+abbrlink: 3688
+date: 2022-12-12 17:35:36
 ---
 # 给hexo食用更高级的渲染器：markdown-it
 ++先卸载++==默认的渲染器==

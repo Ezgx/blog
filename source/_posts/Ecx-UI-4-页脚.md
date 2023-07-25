@@ -1,7 +1,5 @@
 ---
 title: Ecx-UI-4-页脚
-abbrlink: 6854
-date: 2023-01-05 8:33:34
 tags:
   - hexo
   - 教程
@@ -10,6 +8,9 @@ tags:
   - butterfly
 swiper_index: 3
 category: ui魔改
+cover: 'https://pic.imgdb.cn/item/649f003d1ddac507cc3a01ad.png'
+abbrlink: 46392
+date: 2023-01-05 08:33:34
 ---
 :::success
 Ecx-UI第四期

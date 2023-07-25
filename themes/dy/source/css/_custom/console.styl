@@ -1,0 +1,128 @@
+#console_open_close_btn
+    position: fixed
+    border-radius: 100vh
+    width: 40px
+    height 40px
+    padding: 4px
+    z-index: 10002
+    background: var(--heo-theme)
+    bottom: 97px
+    border: 2px solid #e3e8f7
+    right: 7px
+
+[data-theme="dark"] #console_open_close_btn
+    border: 2px solid #3d3d3f
+
+#console_open_close_btn i
+    line-height: 2
+    position: relative
+    bottom: 7%
+    align-items: center
+    display: flex
+    justify-content: center
+    color: var(--heo-font)
+
+#console-pannel
+    position: fixed
+    bottom: 145px
+    display: block
+    z-index: 10002
+    background: var(--heo-theme)
+    transition: right .5s
+    color: var(--heo-font)
+    width: 115px
+    right: -115px
+    height: fit-content
+    padding: 10px
+    border-radius: 20px
+    font-weight: 600
+    border: 2px solid #e3e8f7
+
+[data-theme="dark"] #console-pannel
+    border: 2px solid #3d3d3f
+
+#console-pannel .console-item .console-button
+    display: flex
+
+#console-pannel .console-item .console-button i
+    flex: 1
+    margin-right: 4px
+    line-height: 2
+
+#console-pannel .close-button
+    right: 20px
+    position: absolute
+
+.totopbutton
+    position: fixed
+    bottom: 15px
+    overflow: hidden
+    right: 15px
+    background: #94ddee
+    border-radius: 100vh
+    border: 2.5px solid #00d0ff
+    height: 80px
+    width: 80px
+    z-index: 10000
+    user-select: none
+
+[data-theme="dark"] .totopbutton
+  background: #3d3d3d
+  border: 2.5px solid #F2B94B
+
+.totopbutton span#percent
+    font-size: 30px
+    justify-content: center
+    align-items: center
+    display: flex
+    font-weight: 700
+    color: #fff
+    text-shadow: 2px 1px #000
+    margin: auto
+    z-index inherit
+    top: 6px
+    position: relative
+
+.totopbutton i
+    font-size: 30px
+    justify-content: center
+    align-items: center
+    display: none
+    color: #fff
+    text-shadow: 2px 1px #000
+    font-weight: 700
+    margin: auto
+    z-index inherit
+    top: 20px
+    position: relative
+
+.totopbutton:hover i
+    display: flex
+
+.totopbutton:hover span#percent
+    display: none
+
+.totopbutton .main-hero-waves-area
+    width: 100%
+    height 50%
+    position: absolute
+    bottom: 0
+    left: 0
+    .parallax>use:nth-child(1)
+      fill: #1a55ffbd
+    .parallax>use:nth-child(2)
+      fill: #1a55ff82
+    .parallax>use:nth-child(3)
+      fill: #1a55ff36
+    .parallax>use:nth-child(4)
+      fill: #1a55ff
+
+[data-theme="dark"] .totopbutton .main-hero-waves-area
+    .parallax>use:nth-child(1)
+      fill: #F2B94Bbd
+    .parallax>use:nth-child(2)
+      fill: #F2B94B82
+    .parallax>use:nth-child(3)
+      fill: #F2B94B36
+    .parallax>use:nth-child(4)
+      fill: #F2B94B

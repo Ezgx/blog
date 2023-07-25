@@ -2,10 +2,10 @@
 title: 自定义美化你的windows桌面！
 tags:
   - windows
-abbrlink: 34037
-date: 2023-01-31 22:05:26
 top_group_index: 1
-cover: img/posts/windowsdesktop.png
+cover: 'https://pic.imgdb.cn/item/649e98731ddac507cc60075e.png'
+abbrlink: 4034
+date: 2023-01-31 22:05:26
 ---
 我这个人嘛，好折腾。
 

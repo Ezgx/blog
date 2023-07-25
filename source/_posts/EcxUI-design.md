@@ -6,9 +6,10 @@ tags:
   - Ecx-UI
   - 魔改
   - butterfly
+swiper_index: 1
+cover: 'https://pic.imgdb.cn/item/649f003d1ddac507cc3a01ad.png'
 abbrlink: 870
 date: 2023-01-03 14:12:57
-swiper_index: 1
 ---
 # 第一期--设计理念
 <!-- more -->

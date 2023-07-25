@@ -1,10 +1,10 @@
 ---
 title: 请立即卸载notepad++！
+top_group_index: 1
+cover: 'https://pic.imgdb.cn/item/649efdad1ddac507cc33aec0.png'
 abbrlink: 27391
 date: 2023-01-31 09:35:38
 tags:
-top_group_index: 1
-cover: https://th.bing.com/th/id/OIP.p3RV9Gmoh38-i9rFQDB2BAHaEM?w=295&h=180&c=7&r=0&o=5&pid=1.7
 ---
 :::danger
 # 请立即卸载notepad++！

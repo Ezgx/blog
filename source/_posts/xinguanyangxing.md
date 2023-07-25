@@ -1,12 +1,13 @@
 ---
 title: 新冠阳性记录
-abbrlink: 17909
-date: 2022-12-27 22:47:12
 tags:
   - 生活
   - 碎碎念
 swiper_index: 8
 category: 生活记录
+cover: 'https://pic.imgdb.cn/item/649ede191ddac507ccefda6f.png'
+abbrlink: 17909
+date: 2022-12-27 22:47:12
 ---
 <!-- more -->
 

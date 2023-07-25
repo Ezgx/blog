@@ -2,10 +2,12 @@
 title: hexo博客搭建-1-快速开始&安装主题
 tags:
   - hexo
-abbrlink: 31415
-date: 2022-10-03 15:20:36
-category: 
+cover: >-
+  https://pic.imgdb.cn/item/649efe141ddac507cc348243.png
+category:
   - 博客教程
+abbrlink: 52676
+date: 2022-10-03 15:20:36
 ---
 准备工作&添加主题
 <!-- more -->
@@ -565,9 +567,9 @@ site_verification:
 
 # theme_color:
 #   enable: true
-#   main: "#49B1F5"
+#   main: "#32C9EB"
 #   paginator: "#ff7a7a"
-#   button_hover: "#FF7242"
+#   button_hover: "#ff7a7a"
 #   text_selection: "#ff7a7a"
 #   link_color: "#99a9bf"
 #   meta_color: "#858585"
@@ -575,9 +577,9 @@ site_verification:
 #   code_foreground: "#F47466"
 #   code_background: "rgba(27, 31, 35, .05)"
 #   toc_color: "#ff7a7a"
-#   blockquote_padding_color: "#49b1f5"
-#   blockquote_background_color: "#49b1f5"
-#   scrollbar_color: "#49b1f5"
+#   blockquote_padding_color: "#32C9EB"
+#   blockquote_background_color: "#32C9EB"
+#   scrollbar_color: "#32C9EB"
 #   meta_theme_color_light: "ffffff"
 #   meta_theme_color_dark: "#0d0d0d"
 
@@ -901,7 +903,7 @@ aplayerInject:
 snackbar:
   enable: false
   position: bottom-left
-  bg_light: '#49b1f5' # The background color of Toast Notification in light mode
+  bg_light: '#32C9EB' # The background color of Toast Notification in light mode
   bg_dark: '#1f1f1f' # The background color of Toast Notification in dark mode
 
 # https://instant.page/

@@ -2,6 +2,7 @@
 title: 记录一次诡异的windows崩溃
 tags:
   - windows
+cover: 'https://pic.imgdb.cn/item/649e98731ddac507cc60075e.png'
 abbrlink: 27831
 date: 2023-01-30 21:55:34
 ---

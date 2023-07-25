@@ -2,10 +2,12 @@
 title: hexo博客搭建-2-页面完善
 tags:
   - hexo
-abbrlink: 48756
-date: 2022-12-14 15:20:70
-category: 
+cover: >-
+  https://pic.imgdb.cn/item/649efe141ddac507cc348243.png
+category:
   - 博客教程
+abbrlink: 63474
+date: 2022-12-14 15:21:10
 ---
 ::: danger
 ## 还算简单...

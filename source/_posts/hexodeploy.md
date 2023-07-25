@@ -3,11 +3,13 @@ title: hexo上传到github或gitee
 tags:
   - hexo
   - 教程
+cover: >-
+  https://pic.imgdb.cn/item/649efe141ddac507cc348243.png
+swiper_index: 4
+category:
+  - 博客优化
 abbrlink: 61230
 date: 2022-12-29 12:57:58
-swiper_index: 4
-category: 
-  - 博客优化
 ---
 # 哔哔
 <!-- more -->

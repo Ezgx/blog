@@ -3,14 +3,14 @@ title: cbx-home首页
 tags:
   - 前端
 category: dimension
-cover: /img/posts/home.png
-abbrlink: 46680
+cover: 'https://pic.imgdb.cn/item/649ea95b1ddac507cc80c4f5.png'
+abbrlink: 59158
 date: 2023-02-19 01:56:23
 ---
 
 # cbx-home
 
-属于`dimension`系列
+属于`dimspace`系列
 
 `cbx-home`是一个由纯css构成的轻量化，优雅，支持个人多项目的个人主页。
 
@@ -32,7 +32,7 @@ css为html内嵌（听说单文件加载更快）
 
 默认大小仅占`5.12MB`（你换高清大图就不一定了）
 
-预览：https://home.ezgx.site/
+预览：https://home.uu.sssu.us/
 
 源码下载：https://github.com/Ezgx/home
 

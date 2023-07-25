@@ -1,7 +1,5 @@
 ---
 title: Ecx-UI-3-新拟态风格文章板块+文章页
-abbrlink: 64874
-date: 2023-01-04 11:51:34
 tags:
   - hexo
   - 教程
@@ -9,6 +7,9 @@ tags:
   - 魔改
   - butterfly
 category: ui魔改
+cover: 'https://pic.imgdb.cn/item/649f003d1ddac507cc3a01ad.png'
+abbrlink: 62872
+date: 2023-01-04 11:51:34
 ---
 <!-- more -->
 :::success

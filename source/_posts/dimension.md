@@ -1,13 +1,13 @@
 ---
-title: 使用dimension作为您的hexo主题。
-date: 2023-02-07 20:57:15
+title: Hexo-Theme-Dimension
 tags:
- - hexo
- - butterfly
-abbrlink: dimension
-category: 
+  - hexo
+  - butterfly
+category:
   - dimension
-cover: https://pic.imgdb.cn/item/64061c93f144a01007f083cb.jpg
+cover: https://pic.imgdb.cn/item/649ea95b1ddac507cc80c4f5.png
+abbrlink: 51537
+date: 2023-02-07 20:57:15
 ---
 # 简介
 
@@ -24,12 +24,12 @@ cover: https://pic.imgdb.cn/item/64061c93f144a01007f083cb.jpg
 # 安装主题
 
 {% btns rounded grid5 %}
-{% cell 查看文档, https://dimension.ezgx.site, fas fa-book-open %}
+{% cell 查看文档, https://dimension.uu.sssu.us, fas fa-book-open %}
 {% endbtns %}
 
 # 加群反馈
 
 {% folding cyan open::欢迎加群讨论/反馈 %}
 群聊二维码：
-![](https://ezgx.site/img/qqgroup.png)
+![](https://uu.sssu.us/img/qqgroup.png)
 {% endfolding %}

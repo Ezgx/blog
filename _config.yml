@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Aegcbxの异次元
-subtitle: 欢迎来到异次元
+title: Aegcbx的博客
+subtitle: 九月露湿，待君之前
 description: 等我攒够六便士，就去找月亮🌙……
 keywords: Aegcbx hexo
 author: Aegcbx
@@ -13,8 +13,8 @@ timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://ezgx.site/
-permalink: :year/:abbrlink/ # :year/:month/:day/:title/
+url: http://uu.sssu.us/
+permalink: archives/:abbrlink/ # :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -99,7 +99,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: 2
+theme: dynasty
 
 Plugins:
 - hexo-generator-baidu-sitemap
@@ -110,16 +110,33 @@ baidusitemap:
 sitemap:
     path: sitemap.xml
 
-
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy: 
   type: git
   repo: 
-    - https://gitee.com/wlopck/wlopck
     - https://github.com/Ezgx/Ezgx.github.io
-    # - https://github.com/Ezgx/nyear
   branch: master
+
+# deploy:
+  # type: ftpsync
+  # host: bwg.chame.hostnote.cn  #虚拟主机地址
+  # user: www_ezgx_site  #用户名
+  # pass: www_ezgx_site  #FTP密码
+  # remote: /wwwroot/ #上传到空间的指定目录。默认为/，通常为/wwwroot/
+  # port: 21  #端口，默认为21
+  # ignore:  #忽略文件
+  # connections:  #连接数，默认1
+  # verbose:  #显示调试信息，默认false
+
+bangumi:
+  enable: true 
+  vmid: 3537105143728225
+  title: '追番列表'
+  quote: '生命不息，追番不止！'
+  show: 1
+  loading: '/img/bangumi-loading.gif'
+
 
 swiper:
   enable: false
@@ -177,46 +194,3 @@ feed:
     content:
     content_limit:
     content_limit_delim: ' '
-
-markdown:
-  preset: "default"
-  render:
-    html: true
-    xhtmlOut: false
-    langPrefix: "language-"
-    breaks: true
-    linkify: true
-    typographer: true
-    quotes: "“”‘’"
-  enable_rules:
-  disable_rules:
-  plugins:
-    - markdown-it-abbr
-    - markdown-it-cjk-breaks
-    - markdown-it-deflist
-    - markdown-it-emoji
-    - markdown-it-footnote
-    - markdown-it-ins
-    - markdown-it-mark
-    - markdown-it-sub
-    - markdown-it-sup
-    - markdown-it-checkbox
-    - markdown-it-imsize
-    - markdown-it-expandable
-    - name: markdown-it-container
-      options: success
-    - name: markdown-it-container
-      options: tips
-    - name: markdown-it-container
-      options: warning
-    - name: markdown-it-container
-      options: danger
-  anchors:
-    level: 2
-    collisionSuffix: ""
-    permalink: false
-    permalinkClass: "header-anchor"
-    permalinkSide: "left"
-    permalinkSymbol: "¶"
-    case: 0
-    separator: "-"

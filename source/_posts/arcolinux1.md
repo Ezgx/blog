@@ -2,9 +2,9 @@
 title: arcolinux初体验
 tags:
   - linux
+cover: 'https://pic.imgdb.cn/item/649ea3351ddac507cc736dc3.png'
 abbrlink: 58214
 date: 2023-03-17 21:42:30
-cover: https://pic.imgdb.cn/item/641476c6a682492fcc6634cc.jpg
 ---
 # 选择版本
 

@@ -3,10 +3,10 @@ title: css日记1
 tags:
   - 碎碎念
   - 前端
+cover: 'https://pic.imgdb.cn/item/649ea1491ddac507cc7016a8.png'
+category: css
 abbrlink: 55282
 date: 2023-01-24 16:49:50
-cover: https://th.bing.com/th/id/OIP.rEFlZf2xiI2BUY6BCII6QgHaEL?pid=ImgDet&rs=1
-category: css
 ---
 css学习日记1：开始
 

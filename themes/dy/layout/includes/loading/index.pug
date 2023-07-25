@@ -1,0 +1,34 @@
+if theme.preloader.enable
+  #loading-box(onclick='document.getElementById("loading-box").classList.add("loaded")')
+    .loading-bg
+      div.loading-img
+      .loading-image-dot
+
+  script.
+    const preloader = {
+      endLoading: () => {
+        document.body.style.overflow = 'auto';
+        document.getElementById('loading-box').classList.add("loaded")  
+        new Vue({
+          data: function () {
+              this.$notify({
+                  title: "请发表合法评论",
+                  message: "在评论发表违法内容者后果自负，站长概不负责，最终解释权归站长所有，发表评论即代表同意上述内容",
+                  position: 'top-left',
+                  offset: 50,
+                  showClose: true,
+                  type: "warning",
+                  duration: 4000
+              });
+          }
+      })
+      },
+      initLoading: () => {
+        document.body.style.overflow = '';
+        document.getElementById('loading-box').classList.remove("loaded")
+
+      }
+    }
+    window.addEventListener('load',()=> { preloader.endLoading() })
+    document.addEventListener('pjax:send', () => { preloader.initLoading() })
+    document.addEventListener('pjax:complete', () => { preloader.endLoading() })

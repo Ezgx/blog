@@ -6,9 +6,10 @@ tags:
   - Ecx-UI
   - 魔改
   - butterfly
-abbrlink: 22100
-date: 2023-01-04 11:39:10
 category: ui魔改
+cover: 'https://pic.imgdb.cn/item/649f003d1ddac507cc3a01ad.png'
+abbrlink: 36352
+date: 2023-01-04 11:39:10
 ---
 :::success
 Ecx-UI第一期

@@ -18,35 +18,9 @@ aside: false
 {% note success simple %}
 ```yaml
 - name: Aegcbx
-  link: https://ezgx.site/
-  avatar: https://wlopck.gitee.io/img/avatar.png
-  descr: 欢迎光临异次元
-  siteshot: https://pic.imgdb.cn/item/64061c93f144a01007f083cb.jpg
+  link: https://uu.sssu.us/
+  avatar: https://uu.sssu.us/img/avatar.png
+  descr: 九月露湿，待君之前
+  siteshot: https://pic.imgdb.cn/item/649ad9d51ddac507cc40f140.png
 ```
 {% endnote %}
-
-<!-- 不要删除以下html部分
-<div class="addBtn">
-<button onclick="leonus.linkCom()">
-<i class="fa-solid fa-circle-plus"></i>
-快速申请 (默认样式)
-</button>
-<button onclick="leonus.linkCom(&quot;bf&quot;)">
-<i class="fa-solid fa-circle-plus"></i>
-快速申请 (Butterfly)
-</button>
-</div>
-<link rel="stylesheet" href="/css/kslink.css">
-<script src="/js/kslink.js"></script> -->
-
-# 申请友链
-{% note primary simple %}
-<center style="width:fit-content;margin:auto;">
-{% btns rounded grid5 %}
-{% cell 快速申请 (默认样式), javascript:leonus.linkCom(), fas fa-circle-plus %}
-{% cell 快速申请 (Butterfly), javascript:leonus.linkCom(&quot;bf&quot;), fas fa-circle-plus %}
-{% endbtns %}
-</center>
-{% endnote %}
-<link rel="stylesheet" href="/css/kslink.css">
-<script src="/js/kslink.js"></script>

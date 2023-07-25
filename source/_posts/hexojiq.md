@@ -1,12 +1,13 @@
 ---
-title: hexo一个菜鸟滴踩坑记录和解决办法分享
-abbrlink: 21521
-date: 2022-12-19 15:39:03
+title: hexo一个菜鸟滴踩坑记录和解决办法分享
 tags:
   - hexo
   - 碎碎念
   - FAQ
-swiper_index: 6
+cover: >-
+  https://pic.imgdb.cn/item/649efe141ddac507cc348243.png
+abbrlink: 21521
+date: 2022-12-19 15:39:03
 ---
 # 今天继续水一篇（
 就说点hexo踩的坑和小技巧吧
@@ -25,8 +26,10 @@ cnpm i pug-lexer --save
 
 ## Q:falal：spawn failed
 A:多上传几次
-实在不行就，挂梯
-免费梯：[ikuuu.dev](https://ikuuu.dev/)
+
+配置ssl
+
+然后把上传的仓库地址改成`git@github.com:用户名/仓库名.git`
 
 ## Q:TypeError [ERR_INVALID_URL]: Invalid URL
 ```fatal err

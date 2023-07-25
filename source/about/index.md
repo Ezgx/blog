@@ -53,7 +53,7 @@ type: "about"
 <h2>我的性格类型</h2>
 </font>
 <center>
-<img class="aboutpersimage" src="https://ezgx.site/img/16pers.png">
+<img class="aboutpersimage" src="https://uu.sssu.us/img/16pers.png">
 </center>
 </div>
 

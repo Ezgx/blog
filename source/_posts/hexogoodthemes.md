@@ -2,9 +2,9 @@
 title: hexo主题推荐
 tags:
   - hexo
+cover: 'https://pic.imgdb.cn/item/649efeb41ddac507cc35bf10.png'
 abbrlink: 65172
 date: 2023-02-04 02:57:52
-cover: /img/posts/hexothemes.png
 ---
 :::warning
 首先声明本篇文章：
@@ -106,4 +106,4 @@ github仓库： [particlex](https://github.com/argvchs/hexo-theme-particlex)
 
 <b>ps：博主学生党，没时间，暂未配置邮箱提醒，留言后麻烦客官常来检查是否有回复。</b>
 
-Aegcbxの异次元欢迎您！
+Aegcbx的博客欢迎您！

@@ -1,9 +1,9 @@
 ---
 title: typecho搭建教程
-abbrlink: 23551
+cover: 'https://pic.imgdb.cn/item/649e8dd81ddac507cc4e52b6.png'
+abbrlink: 13199
 date: 2023-03-19 02:50:15
 tags:
-cover: https://pic.imgdb.cn/item/641e4f1aa682492fccf244e0.jpg
 ---
 :::tips
 必备：

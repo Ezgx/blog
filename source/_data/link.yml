@@ -1,78 +1,134 @@
 - class_name: 一起写博客的朋友们
   link_list: # 构建友链列表
+    - name: Aegcbx
+      link: https://uu.sssu.us/
+      avatar: https://uu.sssu.us/img/avatar.png
+      descr: 九月露湿，待君之前
+      snapshot: https://pic.imgdb.cn/item/649ad9d51ddac507cc40f140.png
     - name: 张洪Heo
-      link: https://blog.zhheo.com/
+      link: https://blog.zhheo.com
       avatar: https://img.zhheo.com/i/2022/08/19/62ff32fa28da1.png
-    - name: YongeChanの小屋
-      link: https://Yongechan.site/
-      avatar: https://yongechan.site/avatar.png
+      descr: 分享设计与科技生活
     - name: 鹿啵包の小窝
-      link: https://pochacco.top/
+      link: https://pochacco.top
       avatar: https://pochacco.top/img/Avatar.gif
+      descr: 落日橘子海，揽尽世间温柔
     - name: 陈鑫磊的博客
       link: https://www.cxl2020mc.top
       avatar: https://public.img.cxl2020mc.top/avatar.png
+      descr: 没有BUG的代码是不完美的
     - name: 张时贰
-      link: https://zhangshier.vip
-      avatar: https://zhangshier.vip/Hexo_img/avatar.jpg
+      link: https://zhsher.cn
+      avatar: https://q1.qlogo.cn/g?b=qq&nk=1310446718&s=5
+      descr: 环转码，热爱敲代码的小张！
     - name: Iceの小站
-      link: https://blog.081113.xyz/
-      avatar: 'https://cdn1.tianli0.top/gh/Wangyuxuan08/Pictures/%E5%A4%B4%E5%83%8F.jpg'
+      link: https://blog.081113.xyz
+      avatar: 'https://cdn.jsdelivr.net/gh/Wangyuxuan08/Pictures/%E5%A4%B4%E5%83%8F.jpg'
+      descr: have a good time
     - name: storm-1614
-      link: https://storm-1614.github.io/
+      link: https://storm-1614.github.io
       avatar: https://wlopck.gitee.io/img/links/storm-1614.jpg
+      descr: 一个菜鸟
     - name: 一蓑烟雨的博客
-      link: https://easyf12.top/
+      link: https://easyf12.top
       avatar: https://img.easyf12.top/images/2022/10/15/634a8b4186889.webp
+      descr: 一蓑烟雨任平生
     - name: 怕冷爱上雪
       link: https://blog.4t.pw/
       avatar: https://blog.4t.pw/img/favicon.webp
-    - name: Zaskyの小窝
-      link: https://jcblog.cf
-      avatar: https://pan.whgpc.com/view.php/2bf668a472418fedc1606842967960d7.jpg
+      descr: 众里寻他千百度
     - name: Reverse
       link: https://blog.c12th.cn
       avatar: https://npm.elemecdn.com/reverse-stu-allversions@1.0.0/img/202203071633899.gif
+      descr: 留个爪
     - name: inju银烛
-      link: https://inju.top/
+      link: https://inju.top
       avatar: https://npm.elemecdn.com/inju-tuku@1.0.4/img/head.png
-    - name: A cute boy
-      link: https://nn.imapower.cn
-      avatar: https://nn.imapower.cn/images/avatar.jpg
+      descr: 海纳百川，有容乃大
     - name: Xlenco
-      link: http://xlenco.top/
+      link: http://xlenco.top
       avatar: https://q1.qlogo.cn/g?b=qq&nk=1043865083&s=5
-    - name: 心流
-      link: https://blog.panghai.top
-      avatar: https://blog.panghai.top/img/avatar.png
-    - name: lmx0
-      link: https://www.lmx0.top/
-      avatar: https://s1.vika.cn/space/2023/01/08/ccf7921738f741dbbd0a261c4b8fce1c
+      descr: 最好的地方,是没去过的地方。最好的时光，是回不来的时光。
+    - name: 枫叶
+      link: https://blog.aqcoder.cn
+      avatar: https://blog.aqcoder.cn/img/avatar.png
+      descr: 分享知识，认识世界
+    - name: Lmx0
+      link: https://www.mxne.cn
+      avatar: https://bu.dusays.com/2023/02/05/63df7de56a470.webp
+      descr: 学如逆水行舟，不进则退。
+      snapshot: https://s1.vika.cn/space/2023/01/14/3769baa575fb4fba90cf3b52319bcccc
     - name: 晨曦的小屋
       link: https://xcx2006.github.io
       avatar: https://avatars.githubusercontent.com/u/78677516?s=400&u=ecb4efb1b3a8e369aa59914106ede3bcf8cc156d&v=4
+      descr: 阿巴阿巴
     - name: krau's blog
       link: https://krau.top
       avatar: https://krau.top/photo/avatar/avatar.jpg
+      descr: 年轻，就要折腾
     - name: 九九九感冒绫 #站点名称
-      link: https://miku-39.love/ #站点链接
+      link: https://miku-39.love #站点链接
       avatar: https://s2.loli.net/2022/10/18/soq82lvxakjeHB1.jpg #站长头像
+      descr: 这是我的梦想,我会慢慢的完成它 #站点描述
+      snapshot: https://s2.loli.net/2022/10/18/9KaSTU7OrWHkyEq.png #站图
     - name: 酷小呵
-      link: https://www.kuhehe.top/
+      link: https://www.kuhehe.top
       avatar: https://q1.qlogo.cn/g?b=qq&nk=3111349763&s=100
+      descr: 爱分享的酷小呵
     - name: roydon
       link: https://www.roydon.top
       avatar: https://gcore.jsdelivr.net/gh/roydonGuo/CDN/avatar/ganyu.webp
+      descr: 人要走多少路才能在时光的尽头找寻到真正的自己
     - name: 爱吃肉的猫
-      link: https://meuicat.com/
+      link: https://meuicat.com
       avatar: https://meuicat.com/media/favicon.png
-- class_name: 对博客有帮助的人~
-  link_list: # 构建友链列表
-    - name: forward
-      link: https://fsllala.github.io/
-      avatar: https://cdn.bilicdn.tk/gh/fsllala/img@main/1656236729350avatar.jpg
-- class_name: 收录站
-  link_list: # 构建友链列表
-    - name: 博客录
-      link: https://boke.lu/
-      avatar: https://boke.lu/logo.png
+      descr: 人要走多少路才能在时光的尽头找寻到真正的自己
+      snapshot: https://bu.dusays.com/2023/01/04/63b5663b9c22e.png
+    - name: 翔奕时代
+      link: https://xiang007.com
+      avatar: https://pic.imgdb.cn/item/649bca791ddac507cc83ec73.jpg
+      descr: A year's plan starts with spring.
+    - name: 流年笔记
+      link: https://www.imnian.com
+      avatar: https://www.imnian.com/wp-content/uploads/2023/04/imnian.png
+      descr: 花有重开日，人无再少年
+    - name: 冻符
+      link: https://bkryofu.xyz
+      avatar: https://bkryofu.xyz/resources/avatar.webp
+      descr: 绝望之于虚妄，正与希望相同
+    - name: timochan
+      link: https://www.timochan.cn
+      avatar: https://api.timochan.cn/apc/objects/icon/9s6tbcvax674yv2m88.jpg
+      descr: Let's start learning
+    - name: 速溶
+      link: https://zzzing.cn
+      avatar: https://zzzing.cn/usr/uploads/2022/05/3018418253.png
+      descr: 记录当下 赠予未来
+    - name: 夏日鱼塘
+      link: https://www.summerpond.cn
+      avatar: https://gravatar.loli.net/avatar/21c4feb640c4e51427b2b2a201947b40?s=256&d=mm
+      descr: 一直做困难的事，生活会变得简单
+    - name: 優萌初華
+      link: https://shoka.lostyu.me
+      avatar: https://cdn.jsdelivr.net/gh/amehime/shoka@latest/images/avatar.jpg
+      descr: 琉璃的医学 & 编程笔记
+    - name: 了尘兰若的小坑
+      link: https://www.liaochenlanruo.fun
+      avatar: https://fastly.jsdelivr.net/gh/liaochenlanruo/cdn@master/img/custom/head.jpg
+      descr: 分享微生物生物信息学分析方法
+    - name: 西瓜撞地球
+      link: https://www.bio-w.cn
+      avatar: https://bu.dusays.com/2023/04/19/643f59048bc63.png
+      descr: 我在人间贩卖彩虹
+    - name: 非科学の河童
+      link: https://bkryofu.xyz/
+      avatar: https://bkryofu.xyz/resources/avatar.webp
+      descr: 绝望之于虚妄，正与希望相同
+    - name: 萌傀儡
+      link: https://blhorizon.github.io/
+      avatar: https://cdn1.tianli0.top/npm/blogimages/link/avatar.webp
+      descr: 珍惜现在，趁早摸鱼
+      snapshot: https://cdn1.tianli0.top/npm/blogimages/pictures/khdslb.webp
+    - name: Akino's Blog
+      link: https://akino.icu
+      avatar: https://akino.icu/images/logo.png

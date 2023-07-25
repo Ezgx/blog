@@ -1,7 +1,8 @@
 ---
 title: Hello World
-date: 2022-8-20 23:08:19
+cover: https://pic.imgdb.cn/item/649efe741ddac507cc352a67.png
 abbrlink: 16107
+date: 2022-08-20 23:08:19
 ---
 
 <!-- more -->
@@ -11,5 +12,3 @@ abbrlink: 16107
 ```114514
 hello world
 ```
-（前面的文章是gridea弄的
->黑历史
