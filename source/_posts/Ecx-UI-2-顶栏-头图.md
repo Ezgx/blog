@@ -1,27 +1,31 @@
 ---
-title: Ecx-UI-2-顶栏+头图
+abbrlink: '36352'
+categories: []
+cover: https://pic.imgdb.cn/item/649f003d1ddac507cc3a01ad.png
+date: '2023-01-04T11:39:10+08:00'
 tags:
-  - hexo
-  - 教程
-  - Ecx-UI
-  - 魔改
-  - butterfly
-category: ui魔改
-cover: 'https://pic.imgdb.cn/item/649f003d1ddac507cc3a01ad.png'
-abbrlink: 36352
-date: 2023-01-04 11:39:10
+- hexo
+- 教程
+- Ecx-UI
+- 魔改
+- butterfly
+title: Ecx-UI-2-顶栏+头图
+updated: 2023-7-26T0:43:49.135+8:0
 ---
 :::success
 Ecx-UI第一期
 :::
+
 <!-- more -->
 
 # 顶栏
+
 :::danger
 基于`@安知鱼` 的导航栏改造
 :::
 
 1. 修改`/themes/butterfly/layout/includes/header/nav.pug`，将全部内容替换为：
+
 ```pug
 - const { darkmode } = theme
 nav#nav
@@ -55,6 +59,7 @@ nav#nav
 ```
 
 2. 修改`/themes/butterfly/layout/includes/header/index.pug`，将全部内容替换为：
+
 ```pug
 if !theme.disable_top_img && page.top_img !== false
   if is_post()
@@ -574,7 +579,9 @@ center#name-container {
   display: none;
 }
 ```
+
 5. 添加并引入bar.css
+
 ```css
 #nav {
     top: 20px !important;
@@ -615,6 +622,7 @@ center#name-container {
 
 顶栏悬浮&圆角&拟态风格
 通过css的top等属性实现
+
 ```css
 /* 顶栏悬浮 */
 #nav {
@@ -651,8 +659,8 @@ center#name-container {
 }
 ```
 
-
 如果想要顶栏按钮填色，可以
+
 ```css
 /* 按钮填色 */
 #nav #site-name {
@@ -676,6 +684,7 @@ center#name-container {
 ```
 
 去掉头图部分的黑色遮罩，可以
+
 ```css
 /* 头图透明 */
 #page-header{
@@ -692,6 +701,7 @@ center#name-container {
 ```
 
 头图不全屏
+
 ```css
 /* 头图不全屏 */
 #page-header.full_page {
@@ -705,6 +715,7 @@ center#name-container {
 ```
 
 深色标题适配浅色背景
+
 ```css
 /* 适配浅色背景的深色标题 */
 #page-header #site-title {
